@@ -2,7 +2,6 @@
 int r, s, meteor[3001], ground[3001], min = 10000;
 char map[3001][3001], c;
 int main() {
-	freopen("input.txt", "r", stdin);
 	scanf("%d%d", &r, &s);
 	for (int i = 0; i < s; i++)meteor[i] = -100;
 	for (int i = 0; i < r; i++) {

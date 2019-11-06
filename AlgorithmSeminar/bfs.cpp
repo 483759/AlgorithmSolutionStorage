@@ -16,7 +16,6 @@ void bfs(int node) {
 			}
 	}
 }
-
 void dfs(int cur) {
 	visit[cur] = true;
 	for (int next = 0; next < N; next++)

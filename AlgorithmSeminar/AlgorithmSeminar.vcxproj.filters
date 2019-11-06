@@ -64,6 +64,15 @@
     <Filter Include="소스 파일\problem\17000">
       <UniqueIdentifier>{084bc144-2488-4b03-8518-72e03ada51ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\problem\SWEA">
+      <UniqueIdentifier>{2247a1e2-6d54-42c3-8522-cd2b4d6579ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\problem\5000">
+      <UniqueIdentifier>{e349be82-6914-4d03-bc37-57576d9b7566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\scpc">
+      <UniqueIdentifier>{b35ac978-969e-4619-ba87-2298772e73f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20180919.cpp">
@@ -305,6 +314,402 @@
     </ClCompile>
     <ClCompile Include="1149.cpp">
       <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="10039.cpp">
+      <Filter>소스 파일\problem\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="1697.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="17135.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="2933.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="2750.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="13199.cpp">
+      <Filter>소스 파일\problem\13000</Filter>
+    </ClCompile>
+    <ClCompile Include="1026.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="5658.cpp">
+      <Filter>소스 파일\problem\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="5622.cpp">
+      <Filter>소스 파일\problem\5000</Filter>
+    </ClCompile>
+    <ClCompile Include="5656.cpp">
+      <Filter>소스 파일\problem\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2609.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="1427.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="11559.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="2448.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="8958.cpp">
+      <Filter>소스 파일\problem\8000</Filter>
+    </ClCompile>
+    <ClCompile Include="10451.cpp">
+      <Filter>소스 파일\problem\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="1002.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="15649.cpp">
+      <Filter>소스 파일\problem\15000</Filter>
+    </ClCompile>
+    <ClCompile Include="1929.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="14716.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="14621.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="1003.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="9095.cpp">
+      <Filter>소스 파일\problem\9000</Filter>
+    </ClCompile>
+    <ClCompile Include="2452.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="11052.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="2638.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="10844.cpp">
+      <Filter>소스 파일\problem\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="1932.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="2193.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="2156.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="10026.cpp">
+      <Filter>소스 파일\problem\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="9205.cpp">
+      <Filter>소스 파일\problem\9000</Filter>
+    </ClCompile>
+    <ClCompile Include="3184.cpp">
+      <Filter>소스 파일\problem\3000</Filter>
+    </ClCompile>
+    <ClCompile Include="11057.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="7569.cpp">
+      <Filter>소스 파일\problem\7000</Filter>
+    </ClCompile>
+    <ClCompile Include="1890.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="1005.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="17255.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="1011.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="16973.cpp">
+      <Filter>소스 파일\problem\16000</Filter>
+    </ClCompile>
+    <ClCompile Include="1475.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="15685.cpp">
+      <Filter>소스 파일\problem\15000</Filter>
+    </ClCompile>
+    <ClCompile Include="14501.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="11503.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="17204.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="16367.cpp">
+      <Filter>소스 파일\problem\16000</Filter>
+    </ClCompile>
+    <ClCompile Include="1991.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="12851.cpp">
+      <Filter>소스 파일\problem\12000</Filter>
+    </ClCompile>
+    <ClCompile Include="14564.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="16948.cpp">
+      <Filter>소스 파일\problem\16000</Filter>
+    </ClCompile>
+    <ClCompile Include="9019.cpp">
+      <Filter>소스 파일\problem\9000</Filter>
+    </ClCompile>
+    <ClCompile Include="15650.cpp">
+      <Filter>소스 파일\problem\15000</Filter>
+    </ClCompile>
+    <ClCompile Include="1912.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="1010.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="9465.cpp">
+      <Filter>소스 파일\problem\9000</Filter>
+    </ClCompile>
+    <ClCompile Include="16920.cpp">
+      <Filter>소스 파일\problem\16000</Filter>
+    </ClCompile>
+    <ClCompile Include="11104.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="2436.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="13505.cpp">
+      <Filter>소스 파일\problem\13000</Filter>
+    </ClCompile>
+    <ClCompile Include="11504.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="17144.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="14888.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="13460.cpp">
+      <Filter>소스 파일\problem\13000</Filter>
+    </ClCompile>
+    <ClCompile Include="2468.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="16198.cpp">
+      <Filter>소스 파일\problem\16000</Filter>
+    </ClCompile>
+    <ClCompile Include="4485.cpp">
+      <Filter>소스 파일\problem\4000</Filter>
+    </ClCompile>
+    <ClCompile Include="2098.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="16985.cpp">
+      <Filter>소스 파일\problem\16000</Filter>
+    </ClCompile>
+    <ClCompile Include="2163.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="2293.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="1676.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="14502.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="2941.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="9663.cpp">
+      <Filter>소스 파일\problem\9000</Filter>
+    </ClCompile>
+    <ClCompile Include="11048.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="1764.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="10250.cpp">
+      <Filter>소스 파일\problem\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="14890.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="11403.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="2164.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="11729.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="a.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="b.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="d.cpp">
+      <Filter>소스 파일\scpc</Filter>
+    </ClCompile>
+    <ClCompile Include="17269.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="6359.cpp">
+      <Filter>소스 파일\problem\6000</Filter>
+    </ClCompile>
+    <ClCompile Include="15553.cpp">
+      <Filter>소스 파일\problem\15000</Filter>
+    </ClCompile>
+    <ClCompile Include="1699.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="2133.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="2225.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="11054.cpp">
+      <Filter>소스 파일\problem\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="17300.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="17252.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="1600.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="1904.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="9251.cpp">
+      <Filter>소스 파일\problem\9000</Filter>
+    </ClCompile>
+    <ClCompile Include="1138.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="1014.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="12904.cpp">
+      <Filter>소스 파일\problem\12000</Filter>
+    </ClCompile>
+    <ClCompile Include="16931.cpp">
+      <Filter>소스 파일\problem\16000</Filter>
+    </ClCompile>
+    <ClCompile Include="15651.cpp">
+      <Filter>소스 파일\problem\15000</Filter>
+    </ClCompile>
+    <ClCompile Include="15652.cpp">
+      <Filter>소스 파일\problem\15000</Filter>
+    </ClCompile>
+    <ClCompile Include="14889.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="6603.cpp">
+      <Filter>소스 파일\problem\6000</Filter>
+    </ClCompile>
+    <ClCompile Include="5557.cpp">
+      <Filter>소스 파일\problem\5000</Filter>
+    </ClCompile>
+    <ClCompile Include="17362.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="17363.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="14395.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="15653.cpp">
+      <Filter>소스 파일\problem\15000</Filter>
+    </ClCompile>
+    <ClCompile Include="7453.cpp">
+      <Filter>소스 파일\problem\7000</Filter>
+    </ClCompile>
+    <ClCompile Include="4963.cpp">
+      <Filter>소스 파일\problem\4000</Filter>
+    </ClCompile>
+    <ClCompile Include="1068.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="1181.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="10799.cpp">
+      <Filter>소스 파일\problem\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="3085.cpp">
+      <Filter>소스 파일\problem\3000</Filter>
+    </ClCompile>
+    <ClCompile Include="17471.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="2583.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="16637.cpp">
+      <Filter>소스 파일\problem\16000</Filter>
+    </ClCompile>
+    <ClCompile Include="17822.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="1206.cpp">
+      <Filter>소스 파일\problem\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="1244.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17780.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="1436.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="1074.cpp">
+      <Filter>소스 파일\problem\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="17140.cpp">
+      <Filter>소스 파일\problem\17000</Filter>
+    </ClCompile>
+    <ClCompile Include="2798.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="15686.cpp">
+      <Filter>소스 파일\problem\15000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
