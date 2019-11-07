@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-10026",
+      "appliesTo": "AlgorithmSeminar/10000/10026.cpp",
+      "type": "launch"
+    }
+  ]
+}
