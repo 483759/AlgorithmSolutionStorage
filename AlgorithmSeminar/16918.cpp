@@ -1,61 +1,62 @@
 #include <cstdio>
-#include <algorithm>
-#include <queue>
-#define safe(x,y) (x) >= 0 && (x) < c && (y) >= 0 && (y) < r
+#include <vector>
 using namespace std;
-int r, c, n, t;
-int map[2][205][205], dx[] = { 1, -1, 0, 0 }, dy[] = { 0, 0, 1, -1 };
-char chr;
-struct point { int x, y; };
-queue<point> q;
+int r, c, t, dx[] = { 1,0,-1,0 }, dy[] = {0,1,0,-1};
+vector<int> map[205][205];
+ 
+void print() {
+	//printf("time: %d\n", t);
+	for (int i = 0; i < r; i++) {
+		for (int j = 0; j < c; j++)
+			if (map[i][j].empty())printf(".");
+			else printf("O");
+		printf("\n");			
+	}
+	//printf("\n");
+}
+
 int main() {
 	freopen("input.txt", "r", stdin);
-	scanf("%d%d%d", &r, &c, &n);
-	scanf(" ");
+	scanf("%d%d%d", &r, &c, &t);
 	for (int i = 0; i < r; i++) {
-		for (int j = 0; j < c; j++) {
-			scanf("%c", &chr);
-			if (chr == 'O') {
-				map[0][i][j] = 1;
-				map[1][i][j] = 2;
-			}
-		}
 		scanf(" ");
-	}t = 1;
-	while (n != t++) {
-		for (int i = 0; i < r; i++)
-			for (int j = 0; j < c; j++)
-				if (map[0][i][j]) {
-					map[1][i][j]--;
-					if (!map[1][i][j])q.push({ j,i });
-				}
-		if (t % 2) {
-			while (!q.empty()) {
-				point cur = q.front(); q.pop();
-				map[0][cur.y][cur.x] = map[1][cur.y][cur.x] = 0;
-				for (int k = 0, nx, ny; k < 4; k++) {
-					nx = cur.x + dx[k]; ny = cur.y + dy[k];
-					if (safe(nx, ny)) {
-						map[0][ny][nx] = 0;
-						map[1][ny][nx] = 0;
-					}
-				}
-			}
-		}
-		else {
-			for (int i = 0; i < r; i++)
-				for (int j = 0; j < c; j++)
-					if (!map[0][i][j]) {
-						map[0][i][j] = 1;
-						map[1][i][j] = 3;
-					}
+		for (int j = 0; j < c; j++) {
+			char chr;	scanf("%c",&chr);
+			if (chr == 'O')map[i][j].push_back(2);
 		}
 	}
-		for (int i = 0; i < r; i++) {
-			for (int j = 0; j < c; j++)
-				printf("%c", map[0][i][j] ? 'O' : '.');
-			printf("\n");
+	//print(0);
+	for (int time = 1; time <= t; time++) {
+		if (time % 2==0) {
+			for (int i = 0; i < r; i++)
+				for (int j = 0; j < c; j++)
+					if (map[i][j].empty())
+						map[i][j].push_back(2);
 		}
+		else {
+			vector<pair<int, int>> boom;
+			for (int i = 0; i < r; i++)
+				for (int j = 0; j < c; j++)
+					if (!map[i][j].empty()) {
+						map[i][j][0]--;
+						if (map[i][j][0] == 0) {
+							map[i][j].pop_back();
+							boom.push_back(make_pair(i, j));
+						}
+					}
+			while (!boom.empty()) {
+				int i = boom.back().first, j = boom.back().second;
+				for (int k = 0; k < 4; k++) {
+					int nx = j + dx[k], ny = i + dy[k];
+					if (nx >= 0 && nx < c && ny >= 0 && ny < r && !map[ny][nx].empty())
+						map[ny][nx].clear();
+				}
+				boom.pop_back();
+			}
+		}
+		//print(time);
+	}
+	print();
 	return 0;
 }
 /*
@@ -64,6 +65,66 @@ int main() {
 O...
 .O..
 */
+//#include <cstdio>
+//#include <algorithm>
+//#include <queue>
+//#define safe(x,y) (x) >= 0 && (x) < c && (y) >= 0 && (y) < r
+//using namespace std;
+//int r, c, n, t;
+//int map[2][205][205], dx[] = { 1, -1, 0, 0 }, dy[] = { 0, 0, 1, -1 };
+//char chr;
+//struct point { int x, y; };
+//queue<point> q;
+//int main() {
+//	freopen("input.txt", "r", stdin);
+//	scanf("%d%d%d", &r, &c, &n);
+//	scanf(" ");
+//	for (int i = 0; i < r; i++) {
+//		for (int j = 0; j < c; j++) {
+//			scanf("%c", &chr);
+//			if (chr == 'O') {
+//				map[0][i][j] = 1;
+//				map[1][i][j] = 2;
+//			}
+//		}
+//		scanf(" ");
+//	}t = 1;
+//	while (n != t++) {
+//		for (int i = 0; i < r; i++)
+//			for (int j = 0; j < c; j++)
+//				if (map[0][i][j]) {
+//					map[1][i][j]--;
+//					if (!map[1][i][j])q.push({ j,i });
+//				}
+//		if (t % 2) {
+//			while (!q.empty()) {
+//				point cur = q.front(); q.pop();
+//				map[0][cur.y][cur.x] = map[1][cur.y][cur.x] = 0;
+//				for (int k = 0, nx, ny; k < 4; k++) {
+//					nx = cur.x + dx[k]; ny = cur.y + dy[k];
+//					if (safe(nx, ny)) {
+//						map[0][ny][nx] = 0;
+//						map[1][ny][nx] = 0;
+//					}
+//				}
+//			}
+//		}
+//		else {
+//			for (int i = 0; i < r; i++)
+//				for (int j = 0; j < c; j++)
+//					if (!map[0][i][j]) {
+//						map[0][i][j] = 1;
+//						map[1][i][j] = 3;
+//					}
+//		}
+//	}
+//		for (int i = 0; i < r; i++) {
+//			for (int j = 0; j < c; j++)
+//				printf("%c", map[0][i][j] ? 'O' : '.');
+//			printf("\n");
+//		}
+//	return 0;
+//}
 //#include <cstdio>
 //#include <algorithm>
 //#include <queue>

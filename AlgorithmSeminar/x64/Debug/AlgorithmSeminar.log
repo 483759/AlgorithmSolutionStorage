@@ -1,4 +1,2 @@
-﻿  17471.cpp
-C:\Users\un2ge\source\repos\AlgorithmSeminar\AlgorithmSeminar\17471.cpp(18,22): warning C4805: '|=': 연산에 'bool' 형식과 'int' 형식을 함께 사용하는 것은 안전하지 않습니다.
-C:\Users\un2ge\source\repos\AlgorithmSeminar\AlgorithmSeminar\17471.cpp(18,22): warning C4805: '|': 연산에 'bool' 형식과 'int' 형식을 함께 사용하는 것은 안전하지 않습니다.
+﻿  1219.cpp
   AlgorithmSeminar.vcxproj -> C:\Users\un2ge\source\repos\AlgorithmSeminar\x64\Debug\AlgorithmSeminar.exe

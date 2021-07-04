@@ -4,6 +4,8 @@ int n, m, dx[] = { 0, 1,0,-1 }, dy[] = { -1,0,1,0 }, r, c, d, ans;
 int visit[51][51];
 int main() {
 	freopen("input.txt", "r", stdin);
+
+
 	scanf("%d%d", &n, &m);
 	scanf("%d%d%d", &r, &c, &d);
 	for (int i = 0; i < n; i++)
