@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\C++",
+    "\\C++\\AlgorithmSolutionStorage",
+    "\\C++\\AlgorithmSolutionStorage\\AlgorithmSeminar"
   ],
-  "SelectedNode": "\\AlgorithmSeminar.sln",
+  "SelectedNode": "\\C++\\AlgorithmSolutionStorage\\AlgorithmSeminar\\2467.cpp",
   "PreviewInSolutionExplorer": false
 }

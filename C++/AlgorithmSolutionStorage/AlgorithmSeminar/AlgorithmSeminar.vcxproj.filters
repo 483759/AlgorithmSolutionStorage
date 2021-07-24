@@ -88,6 +88,9 @@
     <Filter Include="소스 파일\problem\21000">
       <UniqueIdentifier>{e4a39f72-3665-42e2-8cc6-70e26f4acf0a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\problem\22000">
+      <UniqueIdentifier>{34b2b965-853e-4113-9205-a82be80f4610}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20180919.cpp">
@@ -1367,6 +1370,9 @@
     </ClCompile>
     <ClCompile Include="2467.cpp">
       <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="22251.cpp">
+      <Filter>소스 파일\problem\22000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
