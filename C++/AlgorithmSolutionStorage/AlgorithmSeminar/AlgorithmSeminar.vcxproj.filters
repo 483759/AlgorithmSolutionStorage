@@ -1374,6 +1374,12 @@
     <ClCompile Include="22251.cpp">
       <Filter>소스 파일\problem\22000</Filter>
     </ClCompile>
+    <ClCompile Include="2251.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
+    <ClCompile Include="20058.cpp">
+      <Filter>소스 파일\problem\20000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="list.txt">
