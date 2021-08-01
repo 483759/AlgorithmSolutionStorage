@@ -4,22 +4,13 @@ sys.stdin=open("python/input.txt","r")
 arr[0]=list(map(int,sys.stdin.readline().split()))
 
 v=[0,0,arr[2]]
-visit=[False, False, False]
-ans=set()
-def func(cur):
-    global visit, v
-    if visit[cur]: return
-    ans.add(v[2])
-    
+ans=[]
+visit=[[[False for _ in range (arr[2]+1)] for _ in range(arr[1]+1)] for _ in range(arr[0]+1)]
+
+def func(a, b, c):
+    global v
+    if visit[v[0]][v[1]][v[2]]: return
+    visit[v[0]][v[1]][v[2]]=True
     for i in range(3):
-        if i==cur: continue
-        if v[i]==arr[i] or visit[i]: continue
-        visit[i]=True
-        v[i]+=arr[i]-v[cur]
-        func(i)
-        v[i]-=arr[i]-v[cur]
-        visit[i]=False
-
-func(2)
-
-print(ans,end=" ")
+        if v[i]==0: continue
+        for j in range(3):
