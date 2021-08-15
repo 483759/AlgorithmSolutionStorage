@@ -19,7 +19,6 @@ int N, T, W, M;
 queue<customer> c;
 priority_queue<waiting, vector<waiting>, cmp> w;
 
-
 int main() {
 	freopen("input.txt", "r", stdin);
 	scanf("%d%d%d", &N, &T, &W);
