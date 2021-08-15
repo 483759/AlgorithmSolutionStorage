@@ -38,10 +38,19 @@
     + [Heap](#heap)
     + [Union-Find](#union-find)
     + [Hash](#hash)
+  * [알고리즘](#----)
+    + [Time Complexity and Big-Oh Notation](#time-complexity-and-big-oh-notation)
+    + [Recursion](#recursion)
+    + [Sort](#sort)
+    + [Graph](#graph-1)
+    + [Divide and Conquer](#divide-and-conquer)
+    + [Dynamic Programming](#dynamic-programming)
+    + [Operating System Algorithm](#operating-system-algorithm)
+    + [Etc](#etc)
 
 <br>
 
-## 자료구조
+## ✅ 자료구조
 
 ### Array and List
 1. [% 연산을 이용한 Circular Array 구현 및 응용](https://2jinishappy.tistory.com/149?category=920680) <br>
@@ -105,7 +114,7 @@
 
 <br>
 
-## 알고리즘
+## ✅ 알고리즘
 
 <br>
 
