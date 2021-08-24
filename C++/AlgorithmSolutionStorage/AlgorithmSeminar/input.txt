@@ -1,8 +1,4 @@
-7 2
+abcxyzxabc
 2
-1
-1
-2
-2
-1
-1
+abc 2
+xyz 1
