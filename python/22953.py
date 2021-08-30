@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin=open('python/input.txt','r')
+sys.stdin=open('python/in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               put.txt','r')
 input=sys.stdin.readline
 
 n,k,c=map(int,input().split())
@@ -11,7 +11,7 @@ def comb(idx, dep):
   global a, k, s
 
   if dep==c or dep>=s:
-    left=0
+    left=0  
     right=10**13
     while left+1<right:
       mid=(left+right)//2
