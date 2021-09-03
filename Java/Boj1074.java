@@ -1,4 +1,4 @@
-package list;
+package Java;
 
 import static java.lang.System.exit;
 

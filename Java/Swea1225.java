@@ -1,4 +1,4 @@
-package list;
+package Java;
 
 import java.io.FileInputStream;
 import java.util.LinkedList;
