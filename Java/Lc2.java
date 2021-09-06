@@ -49,13 +49,19 @@ class Solution {
   }
 
   public static void main(String[] args) {
-    ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
-    ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
-
-    ListNode node = addTwoNumbers(l1, l2);
-    while(node!=null){
-      System.out.println(node.val);
-      node=node.next;
+    Integer k = 0;
+    for(Integer i = k; i < 10; i++){
+      System.out.println(i==k);
+      System.out.println(i);
     }
+    System.out.println(k);
+    // ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
+    // ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
+
+    // ListNode node = addTwoNumbers(l1, l2);
+    // while(node!=null){
+    //   System.out.println(node.val);
+    //   node=node.next;
+    // }
   }
 }
