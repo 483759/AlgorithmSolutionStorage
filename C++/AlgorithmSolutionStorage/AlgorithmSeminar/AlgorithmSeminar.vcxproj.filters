@@ -1428,6 +1428,21 @@
     <ClCompile Include="1835.cpp">
       <Filter>소스 파일\problem\programmers</Filter>
     </ClCompile>
+    <ClCompile Include="line2.cpp">
+      <Filter>소스 파일\problem\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao4.cpp">
+      <Filter>소스 파일\problem\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao5.cpp">
+      <Filter>소스 파일\problem\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="14267.cpp">
+      <Filter>소스 파일\problem\14000</Filter>
+    </ClCompile>
+    <ClCompile Include="2533.cpp">
+      <Filter>소스 파일\problem\2000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="list.txt">
