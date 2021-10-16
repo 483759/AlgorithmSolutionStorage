@@ -74,12 +74,22 @@
 4. [BST(Binary Search Tree)와 Find/Insert/Delete?](https://2jinishappy.tistory.com/100?category=920680) <br>
 <img src="https://user-images.githubusercontent.com/30489264/129456207-3db24bfd-6a36-4c11-bbdd-aab11ebf59cf.png" width="400" />
 
+4. [Color를 이용해서 Self-Balancing을 구현하는 Red-Black Tree](https://2jinishappy.tistory.com/318?category=920680) <br>
+<img src="https://user-images.githubusercontent.com/30489264/134552720-0d719bab-f1ef-4ab7-9a0c-9239acf6f094.png" width="400" />
+
 <br>
 
 ### Stack
 
 1. [ADT Stack의 정의와 연산 구현 (create, push, pop, top, empty)](https://2jinishappy.tistory.com/134?category=920680)
 <img src="https://user-images.githubusercontent.com/30489264/129456440-24ae3be3-cd32-42c1-81b5-00af11165695.png" width="400" />
+
+<br>
+
+### Queue
+
+1. [두 개의 Stack으로 Queue 자료구조를 구현해봅시다](https://2jinishappy.tistory.com/304?category=920680)
+<img src="https://user-images.githubusercontent.com/30489264/134552471-332cdbb3-1c84-45c9-b564-dad62328bdee.png" width="400" />
 
 <br>
 
