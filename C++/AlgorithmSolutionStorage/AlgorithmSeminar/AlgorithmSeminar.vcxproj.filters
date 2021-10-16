@@ -91,6 +91,9 @@
     <Filter Include="소스 파일\problem\22000">
       <UniqueIdentifier>{34b2b965-853e-4113-9205-a82be80f4610}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\problem\23000">
+      <UniqueIdentifier>{586bf3e6-0370-464f-a99b-b6280cfc1ef9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20180919.cpp">
@@ -1448,6 +1451,15 @@
     </ClCompile>
     <ClCompile Include="stair.cpp">
       <Filter>소스 파일\problem\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="23030.cpp">
+      <Filter>소스 파일\problem\23000</Filter>
+    </ClCompile>
+    <ClCompile Include="23031.cpp">
+      <Filter>소스 파일\problem\23000</Filter>
+    </ClCompile>
+    <ClCompile Include="dev3.cpp">
+      <Filter>소스 파일\problem\programmers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
