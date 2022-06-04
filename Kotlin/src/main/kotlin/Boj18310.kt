@@ -2,11 +2,12 @@ import java.util.Scanner
 
 fun main(args: Array<String>) = with(Scanner(System.`in`)) {
     val numOfHouse = readLine()!!.toInt()
+    val center = ((numOfHouse - 1) / 2)
     val location = readLine()!!
         .split(" ")
+        .asSequence()
         .map { e -> Integer.valueOf(e) }
         .toList().sorted()
 
-    val average = (location.sum())/(location.size)
-    println(location[location.binarySearch(average)])
+    println(location[center])
 }
